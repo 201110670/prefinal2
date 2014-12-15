@@ -1,0 +1,143 @@
+.panel{
+		
+			Background-color:#fec83d;
+			margin-top:-37px;
+	}
+	.panel{
+	padding:20px;
+	display:none;
+	border: 2px solid;
+    border-radius: 25px;
+	}
+.ta5{
+	border: 2px solid #765942;
+	border-radius: 10px;
+	height: 100%;
+	width: 70%;
+	background-color:#fec83d;
+}
+.ta6{
+	border: 2px solid #765942;
+	border-radius: 10px;
+	height: 100%;
+	width: 70%;
+	background-color:#fec83d;
+	margin-left:100px;
+}
+.bubble {
+    position: relative;
+   width: 100%;
+    height: 100%;
+    padding: 0px;
+    background: #ADB400;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.bubble2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    background: #fec83d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	align:right;
+}
+/* styles unrelated to zoom */
+	
+		
+
+		/* these styles are for the demo, but are not required for the plugin */
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
+		
+		/* magnifying glass icon */
+		.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+		.zoom img::selection { background-color: transparent; }
+
+		#ex2 img:hover { cursor: url(grab.cur), default; }
+		#ex2 img:active { cursor: url(grabbed.cur), default; }
+		 table {
+            text-align: center;
+            font-size: 11px;
+            font-family:Arial, Helvetica, sans-serif;
+            background: #c0c0c0;
+			margin:0px;
+			width:100%;
+			
+        }
+ 
+        table thead tr,
+        table tfoot tr {
+            background: #feca5f;
+			color:black;
+			padding:21px 3% 22px 0%;
+			border-top:1px solid #feca5f;
+			border-bottom:1px solid #feca5f;
+        }
+ 
+        table tbody tr {
+            background: #f0f0f0;
+		
+        }
+ 
+        td, th {
+            border: 1px solid white;
+			padding:16px 0% 17px 0%;
+			color:black;
+        }
+		body {
+    background: url(css/images/bg1.png);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+
+div.vertical-line{
+  width: 100%;
+  background-color: black;
+  height: 1%;
+}
+div.ex{
+    width: 93%;
+    padding: 10px;
+    border: 5px solid gray;
+}#box1{
+    width: 93%;
+    padding: 10px;
+    border: 5px solid #fec83d;
+    margin: 0;
+}
+#box{
+    width: 90%;
+    padding: 10px;
+    border: 5px solid #fec83d;
+    margin: 0px;
+	height:400px;
+	overflow-y: scroll;
+}
